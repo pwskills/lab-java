@@ -22,21 +22,35 @@ public class MfunitionsMethods {
     } 
 
 
-    public static int factorial(int n){
+  /*   public static int factorial(int n){
         int f = 1;
         for (int i=1 ;i<=n; i++) {
           f = f*i;
         }
         return f;
 
+    }*/
+    public static int factorial(int n){
+      int f =1;
+      for (int i=1 ;i<=n; i++) {
+         f = f*i;
+      }
+      return f;
     }
-    public static int binCoff(int n , int r){
+  /*   public static int binCoff(int n , int r){
         int fact_n = factorial(n);
         int fact_r = factorial(r);
         int fact_nMr =factorial(n-r);
         int binCoff = fact_n/(fact_r*fact_nMr);
         return binCoff;
-    }
+    } */
+    public static int binCoff(int n , int r){
+      int fact_n = factorial(n);
+      int fact_r = factorial(r);
+      int fact_nMr =factorial(n-r);
+      int binCoff = fact_n / (fact_r*fact_nMr);
+      return binCoff;
+  }
     public static void main(String[] args){
       //  printHelloWorld();
         Scanner sc = new Scanner(System.in);
@@ -58,6 +72,6 @@ public class MfunitionsMethods {
         System.out.println("factorial is : "+f);
         
 
-        System.out.println("biocoff is : "+ binCoff(n,7 ));
+        System.out.println("biocoff is : "+ binCoff(n,r ));
     }
 }
