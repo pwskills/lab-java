@@ -1,3 +1,4 @@
+package ALPHA;
 public class FtypeConvversion {
     public static void main(String[] args){
         int a =25;

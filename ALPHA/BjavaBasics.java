@@ -1,3 +1,4 @@
+package ALPHA;
 public class BjavaBasics {
     public static void main(String[] args) {
         byte b = 8;

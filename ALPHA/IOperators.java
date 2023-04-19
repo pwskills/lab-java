@@ -1,3 +1,4 @@
+package ALPHA;
 public class IOperators {
     public static void main(String[] args){
     /*1 aritmetic operators 

@@ -1,3 +1,4 @@
+package ALPHA;
 import java.util.*;
 public class KoddEvennumber {
     public static void main(String[] args){

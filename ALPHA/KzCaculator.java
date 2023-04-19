@@ -1,3 +1,4 @@
+package ALPHA;
 import java.util.*;
 public class KzCaculator {
     public static void main(String[] args){

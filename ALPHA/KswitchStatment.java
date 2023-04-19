@@ -1,3 +1,4 @@
+package ALPHA;
 import java.util.*;
 public class KswitchStatment {
     /**

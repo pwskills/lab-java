@@ -1,3 +1,4 @@
+package ALPHA;
 import java.util.*;
 public class Kterneryoperater {
     public static <string> void main(String[] args) {

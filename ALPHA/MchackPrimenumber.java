@@ -1,3 +1,4 @@
+package ALPHA;
  public class MchackPrimenumber {
     /* 
     public static boolean isPrime(int n){
