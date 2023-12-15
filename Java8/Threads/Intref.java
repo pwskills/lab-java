@@ -1,4 +1,4 @@
-package Java8;
+package Java8.Threads;
 
 @FunctionalInterface
 public interface Intref{

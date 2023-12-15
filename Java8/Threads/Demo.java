@@ -1,4 +1,4 @@
-package Java8;
+package Java8.Threads;
 
 public class Demo {
     public static void main(String[] args) {
